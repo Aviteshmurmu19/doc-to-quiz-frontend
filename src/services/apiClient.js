@@ -2,7 +2,7 @@
 
 // const API_URL = "http://localhost:3001/api/generate";
 // This now works for both local development (with a proxy) and production
-const BASE_URL = import.meta.env.VITE_SOME_KEY || "http://localhost:3001";
+const BASE_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:3001";
 // console.log("BASE_URL", BASE_URL);
 const API_URL = `${BASE_URL}/api/generate`;
 
